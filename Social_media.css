@@ -1,0 +1,54 @@
+.icons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px auto;
+    gap:30px;
+    background-color: rgb(183, 108, 104);
+    width:450px;
+    height:300px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    box-shadow: 2px 4px 10px black;
+}
+.icon:hover{
+    animation:pulse 1s linear;
+}
+@keyframes pulse{
+    0%{
+        transform:scale(1);
+    }
+    100%{
+        transform:scale(1.2);
+    }
+}
+.icon1 img ,.icon2 img,.icon3 img,.icon4 img,.icon5 img{
+    height:25px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon1:hover{
+    background-color: rgb(171, 56, 131);
+}
+
+.icon2:hover{
+    background-color: rgb(56, 56, 154);
+}
+.icon3:hover{
+    background-color: rgb(48, 179, 181);
+}.icon4:hover{
+    background-color: rgb(192, 119, 18);
+}
+.icon5:hover{
+    background-color: rgb(223, 16, 16);
+}
